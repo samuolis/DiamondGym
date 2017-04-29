@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.diamondgym.MainActivity">
+
+    <ImageView
+        android:id="@+id/diamondimage"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:background="#000000"
+        android:paddingTop="16dp"
+        android:src="@drawable/diamond" />
+
+    <TextView
+        android:id="@+id/diamondtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diamondimage"
+        android:background="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:text="Diamond Gym"
+        android:textColor="#42A5F5"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/diamondtext"
+        android:background="#455A64"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/diamondprice"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/clock" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/diamondtime"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/maps" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/diamondmaps"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/diamondnumber"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/google" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/twitter2" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Diamond gym</string>
+    <string name="diamondprice">From 27 eur</string>
+    <string name="diamondtime">weekday: 7:00-22:00 \n weekend: 10:00-17:00</string>
+    <string name="diamondnumber">862475310</string>
+    <string name="diamondmaps">Partizanų g. 27, Kaunas</string>
+
+</resources>
